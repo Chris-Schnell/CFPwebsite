@@ -29,7 +29,7 @@ function Merch() {
   
 
   const getShops = async () => { 
-    var url = 'https://api.printify.com/v1/shops';
+    var url = 'https://api.printify.com/v1/shops.json';
     
     var headers = {
         'Authorization': 'Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzN2Q0YmQzMDM1ZmUxMWU5YTgwM2FiN2VlYjNjY2M5NyIsImp0aSI6IjkyYzU5MTkwYTNkZTQ2ZTViZDdjMjVmMmVjYWM3NmVjZTdhYzVkMjU1YTNlM2Q0NDNlNDQ2MTQ1MzA2YThhZGE0ODM5MmQxZjkwNjIzZjliIiwiaWF0IjoxNjk3MzAwODg4LjQ3NDI0OSwibmJmIjoxNjk3MzAwODg4LjQ3NDI1MiwiZXhwIjoxNzI4OTIzMjg4LjQ2Njk1NCwic3ViIjoiMTU1NjI1MDAiLCJzY29wZXMiOlsic2hvcHMubWFuYWdlIiwic2hvcHMucmVhZCIsImNhdGFsb2cucmVhZCIsIm9yZGVycy5yZWFkIiwib3JkZXJzLndyaXRlIiwicHJvZHVjdHMucmVhZCIsInByb2R1Y3RzLndyaXRlIiwid2ViaG9va3MucmVhZCIsIndlYmhvb2tzLndyaXRlIiwidXBsb2Fkcy5yZWFkIiwidXBsb2Fkcy53cml0ZSIsInByaW50X3Byb3ZpZGVycy5yZWFkIl19.Ah4y1IAzurHdc0yjb164K_Z99hVZnP-0_Xt-j0NRQcVSbGzyUMxzDEs7nhm_rGG-BKw0IMmF0_Ieo97iN9g',
