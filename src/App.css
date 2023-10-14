@@ -1,38 +1,29 @@
 .App {
-  text-align: center;
+  background-image: url('../public/bliss.png') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Optional - this will make the background fixed as the content scrolls */
+  width: 100%;
+  height: 100vh;
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.taskBar{
+  background-color: #3571f3;
+  background: linear-gradient(to bottom, #2051bb, #3571f3);
+  height: 5vh;
+  width: 100vw;
+  position: absolute; /* Position the taskbar absolutely within the .App container */
+  bottom: 0;
+  border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.startButton{
+  background-color: #33b84d;
+  background: linear-gradient(to bottom, #33b84d, #43dd62);
+  width: 8vw;
+  height: 5vh;
+  border-radius: 5px;
 }
