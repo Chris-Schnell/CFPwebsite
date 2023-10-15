@@ -15,7 +15,7 @@
   background: linear-gradient(to bottom, #2051bb, #3571f3);
   height: 5vh;
   width: 100vw;
-  position: absolute; /* Position the taskbar absolutely within the .App container */
+  position: fixed; /* Position the taskbar absolutely within the .App container */
   bottom: 0;
   border-radius: 5px;
 }
