@@ -12,9 +12,9 @@ function Artists() {
                 </Link>
 
             <div className="indArtistContainer">
-                <div className='artistTitleBar'>Night City</div>
-                <div className='artistTitle'>Night City</div>
-                <a className='artistButtons' href="https://soundcloud.com/nightcity0x/perception?si=3da14ef636e54ddfba51d9e80865e272&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing#t=0%3A08"><span style={{"textDecoration": "underline"}}>L</span>isten on Soundcloud</a>
+                <div className='artistTitleBar'>Hey TiG</div>
+                <div className='artistTitle'>Hey TiG</div>
+                <a className='artistButtons' href="https://youtu.be/vq68sNkb93U?si=U3f1r73RUtatOZ2t">Watch on <span style={{"textDecoration": "underline"}} >Y</span>outube</a>
             </div>
             
             <br></br>

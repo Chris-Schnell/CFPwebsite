@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import ShopifyBuyButton from './ShopifyBuyButton';
 
 function Merch() {
   // State variables to manage user selections
@@ -10,7 +11,11 @@ function Merch() {
   const [slideIndex, setSlideIndex] = useState(1);
 
   useEffect(() => {
-    showSlides(slideIndex);
+
+    // Show Jogger slides
+    // showSlides(slideIndex);
+
+
 }, []);
 
 
@@ -50,15 +55,21 @@ function Merch() {
     
   };
 
-  return (
+  return ( 
     <div className="merchContainer">
+
+
+      
       <Link to="/">
                 <img src="./921.ico" className="backButton"/>
                 </Link>
-
+                
         <div className="merchMiddleContainer">
+
+        
       {/* Product Images (You can use a carousel library or custom implementation) */}
 
+        
         <div className="joggersContainer">
       <img src="./Chrome_Joggers_3.png" className="joggersImg"/>
       
@@ -72,7 +83,12 @@ function Merch() {
       </div>
 
 
-    
+      <div className="shopifyChromeTeeButtonContainer">
+      <ShopifyBuyButton />
+      </div>
+
+
+     {/* 
     <div className='merchButtonsContainer'>
 
       <div className="dotsContainer" style={{"textAlign":"center"}}>
@@ -90,9 +106,9 @@ function Merch() {
     <a className='artistButtons' href="https://chromeflipphonestore.etsy.com">Purchase On Our <span style={{"textDecoration": "underline"}} >E</span>tsy Shop</a>
 
 
-      </div>
+      </div> */}
 
-      </div>
+      </div>  
     </div>
   );
 }

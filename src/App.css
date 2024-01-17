@@ -5,6 +5,7 @@
   background-attachment: fixed; /* Optional - this will make the background fixed as the content scrolls */
   width: 100%;
   height: 100vh;
+  overflow: auto;
   
   
 }
@@ -142,12 +143,13 @@
 }
 
 .merchMiddleContainer{
-  width: 60vw;
+  width: 100vw;
   height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  
+  padding-top: 5vw;
   
 }
 
@@ -224,12 +226,27 @@
   background-color: rgba(88, 88, 88, 0.8);
 }
 
+#product-component-1705415773325{
+  /*min-width: 2000px;  Adjust the width based on available space and padding 
+  background-color: #8888e99a;*/
+}
+
+.shopifyChromeTeeButtonContainer{
+  
+  width: 100%;
+}
+
 .ArtistsMiddleContainer{
   
 }
 
 
 @media (min-width: 800px){
+
+
+  
+  
+
 
 .homeIconsContainer{
   width: 50vw;
@@ -250,6 +267,12 @@
 
 @media (max-width: 800px){
 
+
+  .shopifyChromeTeeButtonContainer{
+  
+    width: 80%;
+    
+  }
 
 .startButton{
     width: 20vw;
